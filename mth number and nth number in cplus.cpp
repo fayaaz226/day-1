@@ -23,4 +23,7 @@ cout<<"\nenter the mth max => ";
 cin>>max;
 cout<<"\nthe "<<min<<"th minimum number is => "<<a[min];
 cout<<"\nthe "<<max<<"th maximum number is => "<<a[n-max];
+cout<<"\nthe sum is"<<a[min]+a[n-max];
+cout<<"\nthe difference is :"<<a[n-max]-a[min];
+return 0;
 }
